@@ -1,0 +1,69 @@
+\section{Etude des besoins}
+\subsection{Identification des acteurs} 
+\setlength{\parindent}{5ex}
+
+La plateforme se base principalement sur deux acteurs: \emph{les étudiant} qui vont postuler pour des concours  et \emph{l'administrateur} désignant toute personne qui a pour mission de gérer l’ensemble des modalités liées aux concours. Ces deux acteurs ont deux espaces spécifiques.
+
+\subsection{Besoins fonctionnels} 
+       \begin{itemize}
+         \item[-] \textbf{Espace Étudiant} :
+         
+\setlength{\parindent}{20pt}  
+\setlength{\parskip}{1em}
+
+L'étudiant a la possibilité de créer son compte tout en remplissant le champs des informations  y compris le nom, prénom, CIN et le code d'étudiant. Par la suite, une liste des \emph{concours} s'affiche et l'étudiant aura une visibilté sur ses offres.\par 
+
+L'étudiant pourra postuler pour le concours désiré et ce en remplissant un formulaire contenant son nom, prénom, CIN, date de naissance, lieu de naissance, code d'étudiant et son choix de filière. Ainsi, il doit télé-verser les fichiers relatifs à sa candidature tels que la copie du Baccalauréat, la copie du CIN et le reçu du paiement des frais de concours.
+
+Après avoir rempli le formulaire d'inscription, l'étudiant aura accès à son profile. Ainsi, il pourra le modifier avant le délai mentionné dans les consignes.\par
+
+D'autre part, l'étudiant aura la possibilité de suivre l'état d'avancement de sa candidature. Ceci dit, le statut \emph{En cours} s'affiche lorsque la candidature est encore en phase de traitement. Une fois la candidature traitée, le statut devient soit \emph{Sélectionné} soit \emph{Non Sélectionné}. Dans le cas de \emph{Sélectionné}, l'étudiant pourra générer sa convocation. Après avoir passé le concours, le statut devient soit \emph{Retenu} soit \emph{Rejeté}. Dans le de \emph{Retenu}, l'étudiant étant dans la liste principale doit valider et déposer son dossier dans un délai donné pour qu'il soit officiellement inscrit à l'école. Le processus se répète pour les candidats de la liste d'attente.
+
+\item[-] \textbf{Espace Administrateur} :
+
+L'administrateur publie le concours et pourra le paramétrer tout en spécifiant les critères du profil des candidats éligibles à passer au concours.\par 
+
+Après le traitement et le filtrage des candidatures en se basant sur les critères paramétrés, l'administrateur doit changer le statut des candidats soit en \emph{Sélectionné} pour passer le concours ou \emph{Non Sélectionné}.\par
+
+\vfill
+\noindent\makebox[\linewidth]{\rule{.8\paperwidth}{.6pt}}\\[0.2cm]
+ENSMR - Modélisation des systèmes - 2022/2023 \hfill Gestion des concours
+\noindent\makebox[\linewidth]{\rule{.8\paperwidth}{.6pt}}
+
+L'administrateur doit envoyer, par la suite, les convocations des concours aux candidats.
+Une fois le concours passé, l'administrateur doit générer la liste principale précisant les candidats qui ont réussi le concours pour leurs demander de déposer les documents nécessaires d'inscription dans un délai donné ainsi que la liste d'attente mentionnant les candidats éligibles à s'inscrire à l'école dans le cas d'une place vacante. 
+
+\end{itemize}
+
+\subsection{Besoins non fonctionnels}
+\setlength{\parindent}{5ex} 
+
+\begin{itemize}
+  \item[-] La sécurité : L’application devra être hautement sécurisée, les informations ne devront pas être accessibles à n’importe qui. \\[0.1cm]
+  
+  \item[-] L’interface : avoir une application qui respecte les principes des Interfaces Homme/Machine (IHM) tels que l'ergonomie et la fiabilité.\\[0.1cm]
+  
+  \item[-] L’extensibilité : Dans le cadre de ce travail, l’application devra être extensible, c’est-à-dire qu’il pourra y avoir une possibilité d’ajouter ou de modifier de nouvelles fonctionnalités. \\[0.1cm]
+  
+  \item[-] La convivialité : L’application doit être facile à utiliser. En effet, les interfaces utilisateurs doivent être conviviales c’est-à-dire simples, ergonomique et adaptées à l’utilisateur.\\[0.1cm]
+  
+  \item[-] La rapidité de traitement : En effet, vu le nombre important des transactions quotidiennes, il est impérativement nécessaire que la durée d’exécution des traitements s’approche le plus possible du temps réel.\\[0.1cm]
+  
+  \item[-] L’ergonomie : le thème adopté par l’application doit être inspiré des couleurs et du logo de l’organisation. \\[0.1cm]
+  
+\end{itemize}
+\subsection{Contraintes fonctionnelles}
+\setlength{\parindent}{5ex} 
+\begin{itemize}
+  \item[-] Le système pourra limiter les accès à chaque utilisateur administrateur selon son périmètre d’intervention. \\[0.1cm]
+  \item[-] Avoir la possibilité de joindre des documents sur le système.\\[0.1cm]
+  \item[-] Le système peut bloquer l’utilisateur si certaines champs obligatoires ne sont pas renseignées. \\[0.1cm]
+  \vfill
+\noindent\makebox[\linewidth]{\rule{.8\paperwidth}{.6pt}}\\[0.2cm]
+ENSMR - Modélisation des systèmes - 2022/2023 \hfill Gestion des concours
+\noindent\makebox[\linewidth]{\rule{.8\paperwidth}{.6pt}}
+
+\end{itemize}
+
+
+\newpage
