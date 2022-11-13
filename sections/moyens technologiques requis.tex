@@ -1,67 +1,51 @@
 \section{Moyens technologiques requis}
 \subsection{Modélisation :}
 \setlength{\parindent}{5ex}
-\subsubsection{Objectifs}
 
-Dans le cadre de notre projet informatique pour le SI intitulé \textbf{<Gestion de concours>}, le recours à la modélisation procure de nombreux
-avantages qui agissent sur:
+Dans le cadre de notre projet informatique pour le SI intitulé \textbf{<Gestion de concours>}, 
+le recours à la modélisation se traduit par le langage SysML qui est :
+commun à tous les champs disciplinaires, et composé de diagrammes qui permettent d’aborder
+plus facilement des systèmes pluritechniques, que ce soit en phase de conception ou en phase 
+d’analyse d’un existant.\par
 
-\begin{itemize}
-	\item[-] \textbf{La modularité :} Servir aussi bien un candidat unique que des centaines ou des milliers de candidats simultanés.
-	\item[]
-	\item[-] \textbf{L’abstraction  :} Réduire la complexité et obtenir une conception et une implémentation plus efficaces.
-	\item[]
-	\item[-] \textbf{La dissimulation :} Garder une emprunt d’identité ou identité du client.
-	\item[]
-	\item[-] \textbf{La structuration cohérente des fonctionnalités et des données :} Une architecture scalable.
-\end{itemize}
-
-\setlength{\parindent}{20pt}
-\setlength{\parskip}{1em}
-
-\subsubsection{Systems Modeling Language (SysML)}
-
-Le langage SysML, commun à tous les champs disciplinaires, est composé de diagrammes qui permettent d’aborder
-plus facilement les systèmes pluritechniques, que ce soit en phase de conception ou en phase d’analyse d’un existant.\par
-
-\textbf{Le langage SysML nous offres :}
+\textbf{Notre projet doit inclure : }
 \begin{enumerate}
-	\item diagramme des exigences (requirement diagram)
-	\item diagramme des cas d’utilisation (use case diagram)
-	\item diagramme de séquence (sequence diagram)
-	\item diagramme d’état (state diagram)
-	\item diagramme de définition de blocs (definition block diagram)
-	\item diagramme de blocs internes (internal block diagram)
+	\item Diagramme des exigences (requirement diagram)
+	\item Diagramme des cas d’utilisation (use case diagram)
+	\item Diagramme de séquence (sequence diagram)
+	\item Diagramme d’état (state diagram)
+	\item Diagramme de définition de blocs (definition block diagram)
+	\item Diagramme de blocs internes (internal block diagram)
 \end{enumerate}
-\vfill
-\noindent\makebox[\linewidth]{\rule{.8\paperwidth}{.6pt}}\\[0.2cm]
-ENSMR - Modélisation des systèmes - 2022/2023 \hfill Gestion des concours
-\noindent\makebox[\linewidth]{\rule{.8\paperwidth}{.6pt}}
-\pagebreak
 
 \subsection{Infrastructure cloud}
 \begin{itemize}
-	\item[-] \textbf{Amazon Web Services (AWS)} : permet un gain d’agilité. Le positionnement « à la demande » assure ainsi de toujours n’utiliser
-		que ce qui est nécessaire. Héberger ses applications dans le cloud AWS est l’une des utilisations les plus pertinentes.
+	\item[-] \textbf{Amazon Web Services (AWS)} : pour héberger notre application dans le cloud.
 \end{itemize}
 
 \subsection{Base de données}
 \begin{itemize}
-	\item[-] \textbf{PostgreSQL} : Ce système de gestion de base de données permet de gérer nombreux types des datas avec ses fonctionnalités basiques.
-		Les données les plus complexes peuvent très bien être traitées pour une optimisation de la performance de l’entreprise.
+	\item[-] \textbf{PostgreSQL} : ce système de gestion de base de données va permettre de gérer 
+	nombreux candidats en temps réel.
 \end{itemize}
 
 \subsection{Côté client (Front-end)}
 \begin{itemize}
-	\item[-] \textbf{Next.js} : Next.js étend la bibliothèque React originale de Facebook et le package create-react-app pour fournir un cadre React 
-    extensible, facile à utiliser et à l’épreuve de la production.
+	\item[-] \textbf{Next.js} : pour assurer des interfaces robustes qui supportent une centaine
+	d'utilisateurs simultané.
 \end{itemize}
+
+\vfill
+\noindent\makebox[\linewidth]{\rule{.8\paperwidth}{.6pt}}\\[0.2cm]
+ENSMR - Modélisation des systèmes - 2022/2023 \hfill Gestion des concours
+\noindent\makebox[\linewidth]{\rule{.8\paperwidth}{.6pt}}
+\newpage
 
 \subsection{Côté serveur(Back-end)}
 \begin{itemize}
-	\item[-] \textbf{Django} : Django est sorti en 2005 et est devenu l’un des frameworks Web incontournables pour les développeurs Web. Il a été créé en 
-    tant que framework sur le langage de programmation Python. Avec un ensemble de fonctionnalités appropriées, Django réduit la quantité de code 
-    trivial qui simplifie la création d’applications Web et se traduit par un développement plus rapide.
+	\item[-] \textbf{Django} : pour renforcer l'aspect sécuritaire de 
+	l'application, surtout dans le module d'authentification et la gestion des administrateurs
+	qui representent des fonctionnalités critiques.
 \end{itemize}
 
 \vfill
